@@ -41,5 +41,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIAppFonts</key>
+    <array>
+        <string>AD-Rsail.otf</string>
+        <string>DroidNaskh-Bold.ttf</string>
+        <string>DroidNaskh-Regular.ttf</string>
+        <string>DroidSansArabic.ttf</string>
+        <string>Neckar Font Bold.ttf</string>
+        <string>Neckar Font Regular.ttf</string>
+        <string>San Font.ttf</string>
+    </array>
 </dict>
 </plist>

@@ -7,21 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61106A5521808A5E0095D491 /* DroidNaskh-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A4E21808A560095D491 /* DroidNaskh-Regular.ttf */; };
+		61106A5621808A5E0095D491 /* AD-Rsail.otf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A4F21808A570095D491 /* AD-Rsail.otf */; };
+		61106A5721808A5E0095D491 /* Neckar Font Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A5021808A590095D491 /* Neckar Font Bold.ttf */; };
+		61106A5821808A5E0095D491 /* Neckar Font Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A5121808A5A0095D491 /* Neckar Font Regular.ttf */; };
+		61106A5921808A5E0095D491 /* DroidSansArabic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A5221808A5A0095D491 /* DroidSansArabic.ttf */; };
+		61106A5A21808A5E0095D491 /* DroidNaskh-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A5321808A5C0095D491 /* DroidNaskh-Bold.ttf */; };
+		61106A5B21808A5E0095D491 /* Sane Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61106A5421808A5D0095D491 /* Sane Font.ttf */; };
+		61106A5E218090D50095D491 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A5D218090D50095D491 /* TableViewCell.swift */; };
+		61106A602180918D0095D491 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A5F2180918D0095D491 /* MainTableViewController.swift */; };
+		61106A62218092810095D491 /* SubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A61218092810095D491 /* SubTableViewController.swift */; };
+		61106A64218092980095D491 /* MedicalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A63218092980095D491 /* MedicalTableViewController.swift */; };
+		61106A672180932D0095D491 /* JSONKeysNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A662180932D0095D491 /* JSONKeysNames.swift */; };
+		61106A692180AF2A0095D491 /* JSONModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61106A682180AF2A0095D491 /* JSONModels.swift */; };
 		61962809218002B800DF6A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61962808218002B800DF6A23 /* AppDelegate.swift */; };
-		6196280B218002B800DF6A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196280A218002B800DF6A23 /* ViewController.swift */; };
+		6196280B218002B800DF6A23 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6196280A218002B800DF6A23 /* DetailsViewController.swift */; };
 		6196280E218002B800DF6A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6196280C218002B800DF6A23 /* Main.storyboard */; };
 		61962810218002BC00DF6A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6196280F218002BC00DF6A23 /* Assets.xcassets */; };
 		61962813218002BC00DF6A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61962811218002BC00DF6A23 /* LaunchScreen.storyboard */; };
+		619628252180035C00DF6A23 /* departments.json in Resources */ = {isa = PBXBuildFile; fileRef = 6196281C2180035A00DF6A23 /* departments.json */; };
+		619628262180035C00DF6A23 /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 6196281D2180035A00DF6A23 /* hotels.json */; };
+		619628272180035C00DF6A23 /* Restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 6196281E2180035A00DF6A23 /* Restaurants.json */; };
+		619628282180035C00DF6A23 /* s_hospitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 6196281F2180035A00DF6A23 /* s_hospitals.json */; };
+		619628292180035C00DF6A23 /* clinics in Resources */ = {isa = PBXBuildFile; fileRef = 619628202180035B00DF6A23 /* clinics */; };
+		6196282A2180035C00DF6A23 /* pharmacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 619628212180035B00DF6A23 /* pharmacy.json */; };
+		6196282B2180035C00DF6A23 /* labs.json in Resources */ = {isa = PBXBuildFile; fileRef = 619628222180035B00DF6A23 /* labs.json */; };
+		6196282C2180035C00DF6A23 /* semsars.json in Resources */ = {isa = PBXBuildFile; fileRef = 619628232180035B00DF6A23 /* semsars.json */; };
+		6196282D2180035C00DF6A23 /* hospitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 619628242180035C00DF6A23 /* hospitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61106A4E21808A560095D491 /* DroidNaskh-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Regular.ttf"; sourceTree = "<group>"; };
+		61106A4F21808A570095D491 /* AD-Rsail.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AD-Rsail.otf"; sourceTree = "<group>"; };
+		61106A5021808A590095D491 /* Neckar Font Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neckar Font Bold.ttf"; sourceTree = "<group>"; };
+		61106A5121808A5A0095D491 /* Neckar Font Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neckar Font Regular.ttf"; sourceTree = "<group>"; };
+		61106A5221808A5A0095D491 /* DroidSansArabic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansArabic.ttf; sourceTree = "<group>"; };
+		61106A5321808A5C0095D491 /* DroidNaskh-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DroidNaskh-Bold.ttf"; sourceTree = "<group>"; };
+		61106A5421808A5D0095D491 /* Sane Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sane Font.ttf"; sourceTree = "<group>"; };
+		61106A5D218090D50095D491 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		61106A5F2180918D0095D491 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		61106A61218092810095D491 /* SubTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTableViewController.swift; sourceTree = "<group>"; };
+		61106A63218092980095D491 /* MedicalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalTableViewController.swift; sourceTree = "<group>"; };
+		61106A662180932D0095D491 /* JSONKeysNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONKeysNames.swift; sourceTree = "<group>"; };
+		61106A682180AF2A0095D491 /* JSONModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModels.swift; sourceTree = "<group>"; };
 		61962805218002B800DF6A23 /* YourGuideInAssuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourGuideInAssuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61962808218002B800DF6A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6196280A218002B800DF6A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6196280A218002B800DF6A23 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		6196280D218002B800DF6A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6196280F218002BC00DF6A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61962812218002BC00DF6A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61962814218002BC00DF6A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6196281C2180035A00DF6A23 /* departments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = departments.json; sourceTree = "<group>"; };
+		6196281D2180035A00DF6A23 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		6196281E2180035A00DF6A23 /* Restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Restaurants.json; sourceTree = "<group>"; };
+		6196281F2180035A00DF6A23 /* s_hospitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = s_hospitals.json; sourceTree = "<group>"; };
+		619628202180035B00DF6A23 /* clinics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = clinics; sourceTree = "<group>"; };
+		619628212180035B00DF6A23 /* pharmacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pharmacy.json; sourceTree = "<group>"; };
+		619628222180035B00DF6A23 /* labs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = labs.json; sourceTree = "<group>"; };
+		619628232180035B00DF6A23 /* semsars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = semsars.json; sourceTree = "<group>"; };
+		619628242180035C00DF6A23 /* hospitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hospitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +79,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61106A4D21808A3E0095D491 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61106A4F21808A570095D491 /* AD-Rsail.otf */,
+				61106A5321808A5C0095D491 /* DroidNaskh-Bold.ttf */,
+				61106A4E21808A560095D491 /* DroidNaskh-Regular.ttf */,
+				61106A5221808A5A0095D491 /* DroidSansArabic.ttf */,
+				61106A5021808A590095D491 /* Neckar Font Bold.ttf */,
+				61106A5121808A5A0095D491 /* Neckar Font Regular.ttf */,
+				61106A5421808A5D0095D491 /* Sane Font.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		61106A5C21808A910095D491 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				619628202180035B00DF6A23 /* clinics */,
+				6196281C2180035A00DF6A23 /* departments.json */,
+				619628242180035C00DF6A23 /* hospitals.json */,
+				6196281D2180035A00DF6A23 /* hotels.json */,
+				619628222180035B00DF6A23 /* labs.json */,
+				619628212180035B00DF6A23 /* pharmacy.json */,
+				6196281E2180035A00DF6A23 /* Restaurants.json */,
+				6196281F2180035A00DF6A23 /* s_hospitals.json */,
+				619628232180035B00DF6A23 /* semsars.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		61106A652180931A0095D491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61106A662180932D0095D491 /* JSONKeysNames.swift */,
+				61106A682180AF2A0095D491 /* JSONModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		619627FC218002B800DF6A23 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +137,45 @@
 		61962807218002B800DF6A23 /* YourGuideInAssuit */ = {
 			isa = PBXGroup;
 			children = (
-				61962808218002B800DF6A23 /* AppDelegate.swift */,
-				6196280A218002B800DF6A23 /* ViewController.swift */,
+				61106A652180931A0095D491 /* Model */,
+				6196281B2180032800DF6A23 /* asset */,
+				6196281A218002FC00DF6A23 /* App */,
+				6196282E2180037100DF6A23 /* Views */,
 				6196280C218002B800DF6A23 /* Main.storyboard */,
-				6196280F218002BC00DF6A23 /* Assets.xcassets */,
-				61962811218002BC00DF6A23 /* LaunchScreen.storyboard */,
 				61962814218002BC00DF6A23 /* Info.plist */,
 			);
 			path = YourGuideInAssuit;
+			sourceTree = "<group>";
+		};
+		6196281A218002FC00DF6A23 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61962811218002BC00DF6A23 /* LaunchScreen.storyboard */,
+				61962808218002B800DF6A23 /* AppDelegate.swift */,
+				6196280F218002BC00DF6A23 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6196281B2180032800DF6A23 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				61106A4D21808A3E0095D491 /* fonts */,
+				61106A5C21808A910095D491 /* json */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+		6196282E2180037100DF6A23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61106A5F2180918D0095D491 /* MainTableViewController.swift */,
+				61106A61218092810095D491 /* SubTableViewController.swift */,
+				61106A63218092980095D491 /* MedicalTableViewController.swift */,
+				6196280A218002B800DF6A23 /* DetailsViewController.swift */,
+				61106A5D218090D50095D491 /* TableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +236,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61106A5821808A5E0095D491 /* Neckar Font Regular.ttf in Resources */,
+				61106A5621808A5E0095D491 /* AD-Rsail.otf in Resources */,
+				619628272180035C00DF6A23 /* Restaurants.json in Resources */,
+				61106A5521808A5E0095D491 /* DroidNaskh-Regular.ttf in Resources */,
+				619628282180035C00DF6A23 /* s_hospitals.json in Resources */,
 				61962813218002BC00DF6A23 /* LaunchScreen.storyboard in Resources */,
+				6196282B2180035C00DF6A23 /* labs.json in Resources */,
+				61106A5921808A5E0095D491 /* DroidSansArabic.ttf in Resources */,
 				61962810218002BC00DF6A23 /* Assets.xcassets in Resources */,
+				6196282D2180035C00DF6A23 /* hospitals.json in Resources */,
+				61106A5A21808A5E0095D491 /* DroidNaskh-Bold.ttf in Resources */,
+				619628292180035C00DF6A23 /* clinics in Resources */,
+				619628262180035C00DF6A23 /* hotels.json in Resources */,
+				61106A5B21808A5E0095D491 /* Sane Font.ttf in Resources */,
+				6196282C2180035C00DF6A23 /* semsars.json in Resources */,
+				6196282A2180035C00DF6A23 /* pharmacy.json in Resources */,
 				6196280E218002B800DF6A23 /* Main.storyboard in Resources */,
+				61106A5721808A5E0095D491 /* Neckar Font Bold.ttf in Resources */,
+				619628252180035C00DF6A23 /* departments.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +265,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6196280B218002B800DF6A23 /* ViewController.swift in Sources */,
+				61106A602180918D0095D491 /* MainTableViewController.swift in Sources */,
+				61106A692180AF2A0095D491 /* JSONModels.swift in Sources */,
+				61106A62218092810095D491 /* SubTableViewController.swift in Sources */,
+				61106A672180932D0095D491 /* JSONKeysNames.swift in Sources */,
+				61106A64218092980095D491 /* MedicalTableViewController.swift in Sources */,
+				61106A5E218090D50095D491 /* TableViewCell.swift in Sources */,
+				6196280B218002B800DF6A23 /* DetailsViewController.swift in Sources */,
 				61962809218002B800DF6A23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
